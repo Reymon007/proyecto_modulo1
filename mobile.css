@@ -1,0 +1,723 @@
+@media screen and (max-width: 2560px) {
+    /*Bloque Bienvenida*/
+    .txt__description {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    /*Bloque quienes somos*/
+    .txt__descrip-empresa {
+        font-size: 1.6em;
+        padding: 20px 0px;
+        line-height: 32px;
+    }
+
+    .quienes-somos h2 {
+        font-size: 2em;
+        padding: 20px 0;
+    }
+
+    .txt__descrip-mision {
+        font-size: 1.3em;
+        padding: 0;
+    }
+
+    .content__img-frase {
+        width: 324px;
+    }
+
+    .img__metodologia {
+        width: 49%;
+    }
+
+    /*Bloque Servicios*/
+
+    .content__servicios h1 {
+        font-size: 2em;
+    }
+
+    .txt__description-servicios {
+        font-size: 1.6em;
+        padding: top 20px;
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .txt_resp-preg {
+        font-size: 1.3em;
+    }
+
+
+    /*Bloque Login*/
+    .ico-placeHolder i {
+        left: 153px !important;
+    }
+
+    .ico-placeHolder2 i {
+       left: 153px !important;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    /*Bloque Login*/
+
+    .ico-placeHolder i {
+        left: 80px !important;
+    }
+
+    .ico-placeHolder2 i {
+        left: 80px !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .logo {
+        padding: 0 11px !important;
+    }
+
+    .nav {
+        justify-content: center !important;
+    }
+
+    .nav__menu-item {
+        font-size: 16px !important;
+        margin: 0 2px;
+        line-height: 100px;
+        text-transform: initial !important;
+        width: 100%;
+    }
+
+    .img__services-circ img {
+        width: 70% !important;
+    }
+    
+
+    /*Bloque Bienvenida*/
+    .quienes-somos {
+        width: 90%;
+    }
+
+    .content__img-frase{
+        width: 346px;
+    }
+    
+    .img__metodologia img{
+        width: 80%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    .img__services-circ img{
+        width: 95%;
+    }
+
+    .img__metodologia {
+        width: 100%;
+    }
+
+    .img__metodologia img{
+        width: 100%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(2, 467px);
+        gap: 96px;
+    }
+
+     /*Bloque Servicios*/   
+     .servicios__contenido{
+        grid-template-columns: repeat(1, 700px);
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .title__pregunta {
+        justify-content: center;
+    }
+
+    .content__txt-pregunta {
+        width: 32%;
+    }
+
+    /*Bloque Login*/
+    .ico-placeHolder i {
+        left: 77px !important;
+    }
+
+    .ico-placeHolder2 i {
+       left: 77px !important;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    body{
+        padding-top: 70px;
+    }
+     
+     .header{
+        height: 100px;
+    }
+
+    .logo{
+        padding: 0 20px;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .nav__menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+        background-color: #2c3e50;
+        position: fixed;
+        left: 0;
+        top: 100px;
+        padding: 20px 0;
+        height: calc(100% - 100px);
+        overflow-y: auto;
+        left: 100%;
+    }
+
+    .nav__menu-item{
+        line-height: 100px;
+    }
+
+    .nav__toggle{
+        display: block !important;
+    }
+
+    .nav__menu-visible{
+        left: 0;
+        width: 100%;
+    }
+
+    /*Bloque Bienvenida*/
+    .container__bloq-bienvenida{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img__services-circ img{
+        width: 70%;
+    }
+
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(2, 342px);
+    }
+
+    .content__cards{
+        gap: 45px;
+    }
+
+    .p__description-cards {
+        padding: 13px;
+    }
+    
+    /**Bloque Quienes Somos*/
+     .quienes-somos{
+        width: 95%;
+     }
+
+    .quienes-somos h1 {
+    text-align: center;
+    }
+
+    .txt__descrip-empresa{
+        width: 100%;
+     }
+     
+    .content__descrip-mision{
+       flex-direction: column;
+       gap: 30px;
+    }
+    
+    .txt__descrip-mision{
+       width: 100%;
+    }
+
+    .txt__descrip-mision img{
+        width: 100%;
+     }
+
+    .content__img-frase {
+        width: 35%;
+    } 
+
+    .content__img-frase img{
+        width: 100%;
+        height: 300px;
+    } 
+    
+    .content__img-frase p{
+        width: 100%;
+        height: 300px;    
+    }
+    
+    .img__metodologia{
+       width: 100%;
+       height: 286px;
+    }
+
+    .img__metodologia img{
+        width: 100%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    /*Bloque Servicios*/   
+    .servicios__contenido{
+        grid-template-columns: repeat(1, 700px);
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    
+    .content__preg-frec h1{
+        padding: 27px 15px;
+        font-size: 3em;
+        color: #D0E7E5;
+    }
+    
+    .txt__desc-preg__fec{
+        display: inline-block;
+        font-size: 1.2em;
+    }
+    
+    .conten__preguntas{
+        width: 78%;
+        margin: 0 auto;
+    }
+    
+    .title__pregunta{
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .content__txt-pregunta{
+        width: 50%;
+    }
+    
+    .txt__pregunta {
+        font-size: 1.em;
+    }
+    
+    .txt_resp-preg{
+        width: 85%;
+        font-size: 1em;
+    }
+    
+    /*Bloque Login*/
+    .fondo-body {
+        height: 950px;
+    }
+
+    .login-user {
+        width: 100% !important;
+    }
+
+    .ico-placeHolder i {
+       left: 75px !important;
+    }
+
+    .ico-placeHolder2 i {
+        left:75px !important;
+    }
+
+    .recordar__login {
+       align-items: center !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        height: 950px;
+    }
+
+    /*Bloque Bienvenida*/   
+    .container__bloq-bienvenida{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .img__services-circ img{
+        width: 80%;
+    }
+    
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(1, 415px);
+    }
+
+    /*Bloque Quienes Somos*/
+     
+    .quienes-somos{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .quienes-somos h1{
+        text-align: center;
+    }
+
+    .content__descrip-mision{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .txt__descrip-mision{
+        width: 100%;
+    }
+    
+    .content__img-frase{
+        width: 346px;
+    }
+    
+    .img__metodologia img{
+        width: 80%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    /*Bloque Servicios*/
+    
+    .txt__preg-frec{
+        width: 100%;
+    }
+    
+    .content__servicios h1{
+        text-align: center;
+    }
+    
+    .txt__description-servicios{
+        display: inline-block;
+        font-size: 1em;
+    }
+    
+    .servicios__contenido{
+        width: 100%;
+        padding: 30px 0px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 452px);
+        gap: 20px;
+    }
+    
+    /*Cards*/
+    .content_cards-servicios{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+    .bg__cards{
+        background-color: #fff; 
+        width: 250px; 
+        height: 400px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .content__txt-cards{
+        color: black;
+        font-size: 14px;
+        text-align: left;
+        padding: 13px 13px;
+    }
+    
+    .bg__cards img{
+        overflow: hidden; 
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        height: 120px;
+        padding: 15px;
+    }
+    
+    .grid__servicios-cards p{
+        font-size: 16px;
+        line-height: 23px;
+        padding: 4px;
+        color: black;
+    }
+    
+    .content__serv-inf {
+        width: 92%;
+        height: 277px;
+    }
+
+    .serv__img {
+        width: 420px;
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .content-login {
+        width: 100% !important;
+    }
+
+
+    .content__preg-frec h1{
+        text-align: center;
+    }
+    
+    .txt__desc-preg__fec{
+        font-size: 1em;
+    }
+    
+    .conten__preguntas{
+        width: 78%;
+        margin: 0 auto;
+    }
+    
+    .title__pregunta{
+        justify-content: space-around;
+        margin: 0;
+    }
+    
+    .content__txt-pregunta{
+        width: 70%;
+    }  
+    
+    /*Footer*/
+    footer {
+        flex-direction: column;
+    }
+      
+    .container-logoFooter {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .content__redes-sociales{
+       justify-content: center;
+    }
+
+    /*Bloque Login*/
+    .login-user {
+        width: 80% !important;
+    }
+
+    .ico-placeHolder i {
+       left: 90px !important;
+    }
+
+    .ico-placeHolder2 i {
+        left: 90px !important;
+    }
+}  
+
+
+@media screen and (max-width: 480px) {
+
+    /*Bloque de Bienvenida*/
+    .content__bienvenida {
+        padding: 38px 20px 30px;
+    }
+
+    .container__bloq-bienvenida{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img__services-circ {
+        width: 90%;
+        padding-top: 0;
+        margin: 0 auto;
+    }
+    
+    .img__services-circ img {
+        width: 87%;
+    }
+       
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(1, 316px);
+        gap: 40px;
+    }
+
+    .p__description-cards {
+        padding: 6px;
+    }
+    
+    /*Bloque Quienes Somos*/        
+    .content__quienes-somos{
+        width: 100%;
+        padding: 100px 0 131px;
+    }
+     
+    .quienes-somos {
+        width: 85%;
+    }
+     
+     .content__img-frase{
+        width: 85%;
+    }
+        
+     .quienes-somos h2{
+        padding: 20px;
+    }
+     
+     .txt__descrip-empresa{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .content__descrip-mision{
+       flex-direction: column;
+       gap: 30px;
+    }
+    
+    .txt__descrip-mision{
+       width: 100%;
+       padding: 0px;
+    }
+    
+    .img__metodologia{
+      display: none;
+    }
+
+    /*Bloque Servicios*/
+
+    .txt__preg-frec {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .content__preg-frec h1 {
+        text-align: center;
+    }
+    
+    .txt__description-servicios{
+        display: inline-block;
+        font-size: 1em;
+        line-height: 37px;
+    }
+    
+    .servicios__contenido{
+        width: 100%;
+        padding: 30px 0px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 424px);
+        gap: 20px;
+    }
+    
+    /*Cards*/
+    .content_cards-servicios{
+        grid-template-columns: repeat(1, 1fr);
+    }    
+
+    .content__serv-inf {
+        width: 80%;
+        height: 277px;
+    }
+
+    .serv__img {
+        width: 338px;
+        height: 276px;
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .center__servicios{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .txt__desc-preg__fec{
+        font-size: 1em;
+    }
+    
+       .title__pregunta{
+        justify-content: space-around;
+    }
+    
+    .content__txt-pregunta{
+        width: 50%;
+    }
+    
+    .txt__pregunta {
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .txt_resp-preg{
+        font-size: 1em;
+    }
+    
+    /*Footer*/
+    footer {
+      flex-direction: column;
+    }
+    
+    .container-logoFooter {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .content__redes-sociales{
+       justify-content: center;
+    }
+    
+    /*Bloque Inicio de Sesión*/
+    .fondo-body {
+        height: 950px;
+    }
+    
+    .content-login{
+        width: 100% !important;
+        height: 800px !important;
+        top: 0px !important;
+    }
+    
+    .login-user {
+        width: 85% !important;
+        left: 8% !important;
+    }
+
+    .ico-placeHolder i{
+        left: 65px !important;
+    }
+    
+    .ico-placeHolder2 i{
+        left: 65px !important;
+    }
+    
+    .content__password-recordar{
+       flex-direction: column !important;
+    }
+
+    .button__login {
+        margin: 12px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
