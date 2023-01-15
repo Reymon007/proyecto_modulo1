@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-    <div class="spacer"></div>
-
     <!--Header-->
     <header class="header">
         <nav class="nav">
@@ -40,6 +38,8 @@
         </nav>
     </header>
 
+    <div class="spacer"></div>
+
     <!--Contenedor de contenido general-->
     <div class="content__general">
 
@@ -64,7 +64,9 @@
     
                 <div class="card">
                     <div class="card__content bg__soporte">
-                        <img src="assets/img/iconos/ico-mundo.png" >
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/soporte-preg-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <div class="card__content-text">
                             <h2>
                                 SOPORTE TÉCNICO
@@ -72,7 +74,9 @@
                         </div>
                     </div>
                     <div class="card__overlay bg__soporte2">
-                        <img src="assets/img/iconos/ico-mundo.png" class="img__overlay">
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/soporte-preg-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <p class="p__description-cards">
                             En Servicios informáticos SI SOLUTIONS, hemos creado una filosofía de trabajo de atención, 
                             asistencia y servicio de soporte técnico…
@@ -82,7 +86,9 @@
     
                 <div class="card">
                     <div class="card__content bg__cctv">
-                        <img src="assets/img/iconos/ico-camaras.png" >
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/cctv-preg-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <div class="card__content-text">
                             <h2>
                                 CIRCUITO CERRADO
@@ -90,7 +96,9 @@
                         </div>
                     </div>
                     <div class="card__overlay bg__acceso-cctv2">
-                        <img src="assets/img/iconos/ico-camaras.png" class="img__overlay">
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/cctv-preg-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <p class="p__description-cards">
                             En Servicios informáticos SI SOLUTIONS, hemos creado una filosofía de trabajo de atención, 
                             asistencia y servicio de soporte técnico…
@@ -100,7 +108,9 @@
     
                 <div class="card">
                     <div class="card__content bg__acceso-remoto">
-                        <img src="assets/img/iconos/ico-reloj.png" >
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/ico-remoto-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <div class="card__content-text">
                             <h2>
                                 ACCESO REMOTO
@@ -108,7 +118,9 @@
                         </div>
                     </div>
                     <div class="card__overlay bg__acceso-remoto2">
-                        <img src="assets/img/iconos/ico-reloj.png" class="img__overlay">
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/ico-remoto-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <p class="p__description-cards">
                             En SI SOLUTIONS nos preocupamos por ti y por ello 
                             contamos con soporte a distancia la otra forma de ayudarte con tus problemas 
@@ -119,7 +131,9 @@
     
                 <div class="card">
                     <div class="card__content bg__mac">
-                        <img src="assets/img/iconos/ico-pc.png" class="img__overlay">
+                        <div class="bg__icon-cards">
+                            <img src="assets/img/iconos/ico-imac-bco.png" class="icon__cards-bienvenida">
+                        </div>
                         <div class="card__content-text">
                             <h2>
                                 REPARACIÓN DE MAC'S
@@ -127,7 +141,9 @@
                         </div>
                     </div>
                     <div class="card__overlay bg__equipos-mac">
-                        <img src="assets/img/iconos/ico-pc.png" class="img__overlay">
+                       <div class="bg__icon-cards">
+                        <img src="assets/img/iconos/ico-imac-bco.png" class="icon__cards-bienvenida">
+                       </div>
                         <p class="p__description-cards">
                             A pesar del incremento en el uso de las Mac’s 
                             en México, son muy pocas las empresas fuera de Apple que ofrecen 
@@ -185,7 +201,222 @@
             
         </div>
 
-        
+        <!--Contenedor de Servicios-->
+        <div class="content__servicios" id="servicios">
+            <div class="txt__description-servicios">
+                <h1>
+                    SERVICIOS
+                </h1>
+                <P class="">
+                    En <b>SI SOLUTIONS</b>, nos dimos cuenta de que muchas 
+                    empresas no pueden contar con un departamento especializado 
+                    que se encargue de toda la parte IT, así que decidimos encargarnos 
+                    nosotros y ofrecer servicios informáticos de alta calidad. 
+                    Nos abala nuestra experiencia, clientes y dedicación por conseguir sus objetivos.
+                </P>
+            </div>
+            <div class="servicios__contenido">
+                <div class="content_cards-servicios">
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/soporte-preg.png">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Soporte Remoto</h2>
+                            <br>
+                            <p>
+                                Solucionamos todos los problemas de software, 
+                                instalación de programas, programas que no funcionan, 
+                                virus y posibles incidencias en sistemas operativos Windows, 
+                                MacOS y Linux mediante conexión remota.
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/redes-inf.png">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Redes Informáticas</h2>
+                            <br>
+                            <p>
+                                Administramos las redes LAN / WAN de tu empresa, control administrativo 
+                                a nivel de red y rige las políticas de seguridad y control de acceso para que tu 
+                                empresa esté actualizada y segura.
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/diseno-preg.png">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Diseño Web</h2>
+                            <br>
+                            <p>
+                                Ofrecemos servicios completos, capaces de manejar todos los aspectos de un 
+                                proyecto web.
+                            </p>
+                            <br>
+                            <ul>
+                                <li>Página de Inicio - Quiénes Somos - Catálogo Productos y/o servicios, Blog y Contacto.</li>
+                                <li>Web responsive</li>
+                                <li>Vinculación con redes sociales</li>
+                                <li>Vinculación con redes sociales</li>
+                            </ul>
+                        </div>
+                    </div>
+     
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/carrito-de-compras.png">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Venta de Equipo de Cómputo</h2>
+                            <br>
+                            <p>
+                                En <b>SI SOLUTIONS</b> somos distribuidores de las mejores marcas en 
+                                tecnología algunas de ellas son HP, Lenovo, Dell, Epson, Apple y Samsung, 
+                                Laptops, Computadoras, Impresoras y equipos para Gamers
+                                 todos con garantía de fábrica a precios bajos y competitivos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__serv-inf">
+                    <img src="assets/img/iconos/servicios2.jpg"  class="serv__img">
+                </div>
+            </div>
+        </div>
+
+        <!--CONTENEDOR DE PREGUNTAS FRECUENTES-->
+        <div class="content__preg-frec" id="preg__frec">
+            <div class="center__servicios">
+                <h1>
+                    PREGUNTAS FRECUENTES
+                </h1>
+                <p class="txt__desc-preg__fec">
+                    Este artículo contiene las preguntas más frecuentes realizadas 
+                    por los clientes que requieren soporte técnico para empresas. Si no encuentra una respuesta a 
+                    su pregunta, llamenos y le despejaremos de cualquier duda y podremos orientarlo para 
+                    que tenga toda la seguridad del servicio que va a requerir.
+                </p>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE ES SOPORTE TÉCNICO? 
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/soporte-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        Asistencia a los usuarios que suelen tener algún problema al utilizar un producto o servicio, ya sea este el hardware o software de una computadora de un servidor de Internet, 
+                        periféricos, artículos electrónicos, maquinaria,o cualquier otro equipo o dispositivoincluyendo el correo electrónico, chat, software de aplicación, faxes y técnicos, 
+                        aunque el más común es el telefónico...
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE SON LAS REDES?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/redes-inf.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        Nombra al conjunto de computadoras y otros equipos interconectados, que 
+                        comparten información, recursos y servicios.
+                        Puede a su vez dividirse según su alcance (red de área local o LAN, 
+                        red de área metropolitana o MAN, red de área amplia o WAN, etc.), 
+                        su método de conexión (por cable coaxial, fibra óptica, radio, microondas, infrarrojos) 
+                        o su relación funcional (cliente-servidor, persona a persona), entre otras...
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE ES EL CCTV?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/cctv-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        CCTV consiste en una o más cámaras de vigilancias conectadas a uno o más monitores de video 
+                        o televisores que reproducen las imágenes transmitidas por las cámaras. 
+                        Las imágenes vistas por la cámara se transmiten inalámbricamente o por cables coaxiales o una red inalámbrica 
+                        al monitor que se utiliza para transmitir las imágenes, 
+                        estas imagenes pueden ser grabadas en un disco duro permitiendo ver lo que se graba en todo 
+                        ese día..
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE ES EL DESAROLLO WEB?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/diseno-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        Desarrollo web es un término amplio que define la creación de sitios web para Internet 
+                        o una intranet. 
+                        Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del 
+                        cliente que involucran una combinación de procesos de base de datos 
+                        con el uso de un navegador web a fin de realizar determinadas tareas o mostrar 
+                        información que ayudan a promocionar nuestro negocio...
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE SON LOS EQUIPOS MAC?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/ico-imac.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        En los últimos años Apple ha tenido un aumento significativo. Muchos han afirmado que 
+                        esto se debe en parte, al éxito del iPod y el iPhone, 
+                        ya que teóricamente un dueño satisfecho de la experiencia de un iPod o un iPhone 
+                        se declinará a comprar más equipos Apple como los Mac. 
+                        Este movimiento se le ha denominado "efecto halo". los equipos Mac son utilizadas mucho 
+                        para diseño grafico...
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Footer-->
     <footer id="contacto">

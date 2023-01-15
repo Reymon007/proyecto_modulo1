@@ -1,10 +1,81 @@
-@media (max-width: 1280px) {
+@media screen and (max-width: 2560px) {
+    /*Bloque Bienvenida*/
+    .txt__description {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    /*Bloque quienes somos*/
+    .txt__descrip-empresa {
+        font-size: 1.6em;
+        padding: 20px 0px;
+        line-height: 32px;
+    }
+
+    .quienes-somos h2 {
+        font-size: 2em;
+        padding: 20px 0;
+    }
+
+    .txt__descrip-mision {
+        font-size: 1.3em;
+        padding: 0;
+    }
+
+    .content__img-frase {
+        width: 324px;
+    }
+
+    .img__metodologia {
+        width: 49%;
+    }
+
+    /*Bloque Servicios*/
+
+    .content__servicios h1 {
+        font-size: 2em;
+    }
+
+    .txt__description-servicios {
+        font-size: 1.6em;
+        padding: top 20px;
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .txt_resp-preg {
+        font-size: 1.3em;
+    }
+
+
+    /*Bloque Login*/
+    .ico-placeHolder i {
+        left: 153px !important;
+    }
+
+    .ico-placeHolder2 i {
+       left: 153px !important;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    /*Bloque Login*/
+
+    .ico-placeHolder i {
+        left: 80px !important;
+    }
+
+    .ico-placeHolder2 i {
+        left: 80px !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
     .logo {
         padding: 0 11px !important;
     }
 
-    .nav__menu {
-        margin: 2px !important ;
+    .nav {
+        justify-content: center !important;
     }
 
     .nav__menu-item {
@@ -14,7 +85,10 @@
         text-transform: initial !important;
         width: 100%;
     }
-    
+
+    .img__services-circ img {
+        width: 70% !important;
+    }
     
 
     /*Bloque Bienvenida*/
@@ -74,12 +148,12 @@
 
     /*Bloque Login*/
     .ico-placeHolder i {
-        left: 75px !important;
-     }
- 
-     .ico-placeHolder2 i {
-        left: 75px !important;
-     }
+        left: 77px !important;
+    }
+
+    .ico-placeHolder2 i {
+       left: 77px !important;
+    }
 }
 
 
@@ -94,6 +168,10 @@
 
     .logo{
         padding: 0 20px;
+    }
+
+    .nav {
+        justify-content: center;
     }
 
     .nav__menu{
@@ -241,16 +319,31 @@
     }
     
     /*Bloque Login*/
+    .fondo-body {
+        height: 950px;
+    }
+
+    .login-user {
+        width: 100% !important;
+    }
+
     .ico-placeHolder i {
-       left: 60px !important;
+       left: 75px !important;
     }
 
     .ico-placeHolder2 i {
-        left: 60px !important;
+        left:75px !important;
+    }
+
+    .recordar__login {
+       align-items: center !important;
     }
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        height: 950px;
+    }
 
     /*Bloque Bienvenida*/   
     .container__bloq-bienvenida{
@@ -371,6 +464,11 @@
     }
 
     /*Bloque Preguntas Frecuentes*/
+    .content-login {
+        width: 100% !important;
+    }
+
+
     .content__preg-frec h1{
         text-align: center;
     }
@@ -409,6 +507,9 @@
     }
 
     /*Bloque Login*/
+    .login-user {
+        width: 80% !important;
+    }
 
     .ico-placeHolder i {
        left: 90px !important;
@@ -573,6 +674,9 @@
     }
     
     /*Bloque Inicio de Sesión*/
+    .fondo-body {
+        height: 950px;
+    }
     
     .content-login{
         width: 100% !important;
@@ -580,46 +684,25 @@
         top: 0px !important;
     }
     
-    input[type="text"], input[type="password"] {
-        width: 70%;
-        border: 2px solid #aaa;
-        border-radius: 4px;
-        margin: 30px 0;
-        outline: none;
-        padding: 10px;
-        box-sizing: border-box;
-        transition: 0.3s;
-      }
-    
-    input[type="text"]:focus, input[type="password"]:focus {
-        border-color: dodgerBlue;
-        box-shadow: 0 0 15px 0 dodgerBlue;
+    .login-user {
+        width: 85% !important;
+        left: 8% !important;
     }
-    
-    .ico-placeHolder, .ico-placeHolder2 {
-      position: relative;
-    }
-    
-    .ico-placeHolder input[type="text"], .ico-placeHolder2 input[type="password"]  {
-      padding-left: 40px;
-    }
-    
+
     .ico-placeHolder i{
-        left: 53px !important;
+        left: 65px !important;
     }
     
     .ico-placeHolder2 i{
-        left: 53px !important;
+        left: 65px !important;
     }
     
     .content__password-recordar{
        flex-direction: column !important;
-       align-items: center;
     }
-    
-    .recordar__login{
-        display: flex;
-        gap: 5px;
+
+    .button__login {
+        margin: 12px !important;
     }
 }
 

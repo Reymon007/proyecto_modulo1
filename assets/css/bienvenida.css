@@ -15,7 +15,7 @@
     border: 1px solid rgb(253, 253, 253);
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 2px 4px 10px red;
+    box-shadow: 2px 4px 10px rgb(101, 99, 99);
 }
 
 .img__services-circ{
@@ -36,7 +36,7 @@
 
 .pregunta{
     font-size: 3em;
-    color: #D0E7E5;
+    color: #615E5A;
     padding: 14px;
 }
 
@@ -45,7 +45,7 @@
     width: 90%;
     font-size: 1.2em;
     border-radius: 20px;
-    color: #F1F1E6;
+    color: #636363;
 }
 
 /*Cards*/
@@ -73,6 +73,20 @@
     justify-content: center;
     gap: 25px;
     margin: 0 auto; 
+    box-shadow: 2px 4px 10px rgb(122, 122, 122);
+}
+
+.bg__icon-cards{
+    background-color: #1D3962;
+    border-radius: 50%;
+    width: 97px;
+    height: 96px;
+    text-align: center;
+    padding: 15px;
+}
+
+.icon__cards-bienvenida{
+    width: 60px;
 }
 
 .bg__soporte{
@@ -108,10 +122,10 @@
     padding: 2px;
     width: 200px;
     height: 60px;
-    color:#D0E7E5;
+    color:#615E5A;
     font-size: 1em;
     font-weight: bold;
-    background-color: black;
+    background-color: #d4d3d2;
     border-radius: 10px;
     text-align: center;
 }
@@ -125,7 +139,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
     left: 0;
     top: 0;
     right: 0;
@@ -164,8 +178,8 @@
 
 .p__description-cards{
     padding: 0px 20px;
-    color: #F1F1E6;
-    background-color: rgb(3, 3, 3);
+    color: #484542;
+    background-color: #d4d3d2;
     border-radius: 20px;
     width: 80%;
     padding: 20px;

@@ -83,24 +83,42 @@ input[type="text"]:focus, input[type="password"]:focus {
     height: 25px;
 }
 
+.content__password-recordar{
+    display: flex;
+    justify-content: center;
+    width: 70%;margin: 0 auto;
+    gap: 30px;
+}
+
+.recordar__login{
+    display: flex;
+    gap: 5px;
+}
+
 input[type="checkbox"]{
     margin: 0;
     
 }
 
-/* button{
+.txt__recordar-login{
+    color: #fff; 
+    font-size: 13px;
+    padding: 8px;
+}
+
+.button__login{
     border-radius: 10px;
     background-color: #00386C;
-    width: 70%;
+    width: 40%;
     height: 50px;
     margin: 40px;
     color: #fff;
     font-weight: 900;
     letter-spacing: 2px;
     cursor: pointer;
-} */
+}
 
-/* button:hover{
+.button__login:hover{
     background-color: rgb(9, 140, 206);
     color: #fff;
-} */
+}

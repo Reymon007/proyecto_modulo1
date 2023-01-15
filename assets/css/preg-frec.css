@@ -1,6 +1,7 @@
 .content__preg-frec{
     width: 100%;
     padding: 110px 0px 44px;
+    background-color: #e3e3e3;
 }
 
 .center__servicios{
@@ -11,7 +12,7 @@
 .content__preg-frec h1{
     padding: 27px 15px;
     font-size: 3em;
-    color: #D0E7E5;
+    color: #7e7e7e;
 }
 
 .txt__desc-preg__fec{
@@ -19,7 +20,7 @@
     font-size: 1.5em;
     padding: 20px;
     border-radius: 15px;
-    color: #F1F1E6;
+    color: #9b9b9b;
     line-height: 37px;
 }
 
@@ -39,7 +40,7 @@
 
 .txt__pregunta {
     padding: 20px 0px;
-    color:#F1F1E6;
+    color:#7e7e7e;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -47,7 +48,7 @@
 .txt_resp-preg{
     width: 85%;
     font-size: 1em;
-    color:#F1F1E6;
+    color:#9b9b9b;
     padding: 5px;
     line-height: 30px;
 }
