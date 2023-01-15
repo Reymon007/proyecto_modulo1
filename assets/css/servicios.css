@@ -1,0 +1,49 @@
+.content__servicios{
+    width: 100%;
+    padding: 150px 0px 117px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__img-lap2 img{
+    width: 90%;
+    height: 288px;
+}
+.content__servicios h2{
+    text-align: center;
+    font-size: 3em;
+    padding: 10px 0px 10px;
+}
+
+.txt__description-servicios{
+    width: 50%;
+}
+
+/*Cards*/
+.bg-cards{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+
+.grid__servicios-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.grid__servicios-cards img{
+    overflow: hidden; 
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 116px;
+}
+
+.grid__servicios-cards p{
+    font-size: 16px;
+    line-height: 23px;
+    padding: 4px;
+    color: black;
+}

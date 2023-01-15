@@ -1,0 +1,166 @@
+.container__bloq-princ{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10PX;
+}
+
+.content__circ-service{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin__img-circ-service{
+    margin: 33px 0px;
+}
+
+.promocional1, .promocional2,
+.promocional3{
+    width: 300px;
+    height: 300px;
+}
+
+.content__txt{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pregunta{
+    font-size: 3em;
+    color: #fff;
+    padding: 14px;
+}
+
+.txt__description{
+    padding: 23px;
+    width: 90%;
+    font-size: 1.5em;
+    background-color: black;
+    border-radius: 20px;
+    opacity: .7;
+}
+
+/*CARDS*/
+.content__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px;
+}
+
+.card{
+    position: relative;
+}
+
+.card__content {
+    border-radius:25px;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto; 
+}
+
+.bg__soporte{
+    background-image: url(../img/iconos/soporte.png);
+    background-size: cover;
+}
+
+.bg__cctv{
+    background-image: url(../img/iconos/cctv.png);
+    background-size: cover;
+}
+
+.bg__cctv{
+    background-image: url(../img/iconos/cctv.png);
+    background-size: cover;
+}
+
+.bg__acceso-remoto{
+    background-image: url(../img/iconos/acceso-remoto.png);
+    background-size: cover;
+}
+
+.bg__mac{
+    background-image: url(../img/iconos/equip-mac.png);
+    background-size: cover;
+}
+
+.card__content-img{
+    margin-top: 12px;
+}
+
+.card__content .card__content-text{
+    padding: 2px;
+    width: 200px;
+    height: 60px;
+    color:#fff;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    opacity: .7;
+    text-align: center;
+}
+
+.card__overlay {
+    border-radius:25px;
+    width: 80%;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin: 0 auto;
+    scale: 30s;
+}
+
+.bg__soporte2{
+    background-image: url(../img/iconos/soporte2.png);
+    background-size: cover;
+}
+
+.bg__acceso-cctv2{
+    background-image: url(../img/iconos/cctv2.png);
+    background-size: cover;
+}
+
+.bg__acceso-remoto2{
+    background-image: url(../img/iconos/acceso-remoto2.png);
+    background-size: cover;
+}
+
+.bg__equipos-mac{
+    background-image: url(../img/iconos/equip-mac2.png);
+    background-size: cover;
+}
+
+.card:hover .card__overlay {
+    opacity: 1;
+    transform: translate(0 -300);
+    transition-duration: 1000ms;
+    backface-visibility: hidden;
+}
+
+.p__description-cards{
+    padding: 0px 20px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    font-size: .9em;
+    opacity: .8;
+    font-weight: bold;
+}
