@@ -1,176 +1,99 @@
 @media (max-width: 1280px) {
-
-    .nav {
-        justify-content: space-around;
-        gap: 10px;
+    .logo {
+        padding: 0 11px !important;
     }
-    
+
     .nav__menu {
-        gap: 10px;
-        margin-right: 119px !important;
-    } 
+        margin: 2px !important ;
+    }
 
     .nav__menu-item {
-        font-size: 18px !important;
-        text-transform: inherit !important;
-        line-height: 22px !important;
-        margin-top: 30px!important;
-        text-align: center;
+        font-size: 16px !important;
+        margin: 0 2px;
+        line-height: 100px;
+        text-transform: initial !important;
+        width: 100%;
     }
-
-    .nav__menu-link {
-        padding: 8px 0px !important;
-    }
-
-    .inicio__sesion{
-        width: 132px !important;
-        height: 36px !important;
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-    .inicio__sesion:hover,
-    .menu-link__active  {
-        background-color: rgba(21, 11, 167, 0.719);
-        color: #fff;
-        scale: 1 !important;
-    }
-
-    /*Bloque Bienvenida*/
-
-    .container__bloq-princ{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20PX;
-    }
-
-    .content__circ-service{
-        margin: 0 auto;
-        justify-content: center;
-    }
-
+    
     
 
-
-    .promocional1, .promocional2,
-    .promocional3{
-        width: 300px;
-        height: 300px;
+    /*Bloque Bienvenida*/
+    .quienes-somos {
+        width: 90%;
     }
 
-    .content__txt{
-        width: 100%;
-        margin: 0 auto;
+    .content__img-frase{
+        width: 346px;
     }
-
-    .pregunta{
-        text-align: center;
-    }
-
-    .txt__description{
+    
+    .img__metodologia img{
         width: 80%;
-        margin: 0 auto;
-    }
-}
-
-
-
-
-
-@media (max-width: 1024px) {
-    .nav{
-        justify-content: center;
-    }
-    .nav__menu{
-        gap: 10px;
+        height: 286px;
     }
 
-    .nav ul{
-        padding: 0;
-    }
-
-    .nav__menu-link{
-        padding: 10px 0px !important;      
-    }
-
-    
-    .inicio__sesion:hover,
-    .menu-link__active  {
-        scale: 1 !important;
-    }
-
-    .inicio__sesion{
-        width: 132px !important;
-        height: 36px !important;
-        font-size: 15px;
-        margin-top: 22px!important;
-        line-height: 14px !important;
-    }
-
-    /*Bloque Bienvenida*/
-    .container__bloq-princ{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-    .content__circ-service{
-        width: 65%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    
-    .promocional1, .promocional2,
-    .promocional3{
-        width: 250px;
-        height: 300px;
-    }
-    
-    .content__txt{
+    .img__metodologia P{
         width: 100%;
-        margin: 0 auto;
-        text-align: center;
     }
-    
-    .pregunta{
-        font-size: 3em;
-        color: #fff;
-        padding: 14px;
+
+    .img__services-circ img{
+        width: 95%;
     }
-    
-    .txt__description{
-        padding: 23px;
+
+    .img__metodologia {
         width: 100%;
-        font-size: 1.5em;
-        background-color: black;
-        border-radius: 20px;
-        opacity: .7;
     }
-    
-    /*CARDS*/
+
+    .img__metodologia img{
+        width: 100%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    /*Cards*/
     .content__cards{
-        display: grid;
-        grid-template-columns: repeat(2, 375px);
-        gap: 12px;
-        margin: 16px 0px;
+        grid-template-columns: repeat(2, 467px);
+        gap: 96px;
     }
-    .p__description-cards {
-        text-align: start;
+
+     /*Bloque Servicios*/   
+     .servicios__contenido{
+        grid-template-columns: repeat(1, 700px);
     }
-       
+
+    /*Bloque Preguntas Frecuentes*/
+    .title__pregunta {
+        justify-content: center;
+    }
+
+    .content__txt-pregunta {
+        width: 32%;
+    }
+
+    /*Bloque Login*/
+    .ico-placeHolder i {
+        left: 75px !important;
+     }
+ 
+     .ico-placeHolder2 i {
+        left: 75px !important;
+     }
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
     body{
-        padding-top: 100px;
+        padding-top: 70px;
+    }
+     
+     .header{
+        height: 100px;
     }
 
-    .header{
-        height: 100px !important;
-    }
-    
-    .logo img{
-        width: 148px !important;
-        height: 100px !important;
+    .logo{
+        padding: 0 20px;
     }
 
     .nav__menu{
@@ -181,200 +104,523 @@
         position: fixed;
         left: 0;
         top: 100px;
-        width: 100% !important;
         padding: 20px 0;
         height: calc(100% - 100px);
         overflow-y: auto;
         left: 100%;
-
     }
 
     .nav__menu-item{
         line-height: 100px;
     }
 
-    .nav__menu-link {
-        padding: none;
-    }
-    
-    .nav__menu-link:hover,
-    .menu-link__active {
-        background-color: none;
-        color: #83c5f7;
-    }
-
     .nav__toggle{
         display: block !important;
-        z-index: 100;
-    }
-    
-    .nav__toggle img{
-        width: 30px !important;
-        height: 30px !important;
     }
 
     .nav__menu-visible{
         left: 0;
+        width: 100%;
     }
 
-    /*Bloque Bienvenida*/  
-    .container__bloq-princ{
+    /*Bloque Bienvenida*/
+    .container__bloq-bienvenida{
         grid-template-columns: repeat(1, 1fr);
     }
-    
-    .content__circ-service{
-        display: none;
-    }
-    
-    .content__txt{
-        width: 100%;
-    }
-    
-    .pregunta{
-        font-size: 2.5em;
-        text-align: center;
-    }
-    
-    .txt__description{
-        width: 100%;
-        font-size: 1.3em;
-        line-height: 30px;
-    }
-    
-    /*CARDS*/
 
-    .card {
-        margin-top: 31px;
+    .img__services-circ img{
+        width: 70%;
+    }
+
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(2, 342px);
     }
 
     .content__cards{
-        grid-template-columns: repeat(1, 480px);
-        gap: 9px;
-        margin: 11px;
+        gap: 45px;
     }
 
-    .card__content {
-        border-radius: 25px;
-        width: 80%;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
+    .p__description-cards {
+        padding: 13px;
+    }
+    
+    /**Bloque Quienes Somos*/
+     .quienes-somos{
+        width: 95%;
+     }
+
+    .quienes-somos h1 {
+    text-align: center;
+    }
+
+    .txt__descrip-empresa{
+        width: 100%;
+     }
+     
+    .content__descrip-mision{
+       flex-direction: column;
+       gap: 30px;
+    }
+    
+    .txt__descrip-mision{
+       width: 100%;
+    }
+
+    .txt__descrip-mision img{
+        width: 100%;
+     }
+
+    .content__img-frase {
+        width: 35%;
+    } 
+
+    .content__img-frase img{
+        width: 100%;
+        height: 300px;
+    } 
+    
+    .content__img-frase p{
+        width: 100%;
+        height: 300px;    
+    }
+    
+    .img__metodologia{
+       width: 100%;
+       height: 286px;
+    }
+
+    .img__metodologia img{
+        width: 100%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    /*Bloque Servicios*/   
+    .servicios__contenido{
+        grid-template-columns: repeat(1, 700px);
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    
+    .content__preg-frec h1{
+        padding: 27px 15px;
+        font-size: 3em;
+        color: #D0E7E5;
+    }
+    
+    .txt__desc-preg__fec{
+        display: inline-block;
+        font-size: 1.2em;
+    }
+    
+    .conten__preguntas{
+        width: 78%;
         margin: 0 auto;
+    }
+    
+    .title__pregunta{
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .content__txt-pregunta{
+        width: 50%;
+    }
+    
+    .txt__pregunta {
+        font-size: 1.em;
+    }
+    
+    .txt_resp-preg{
+        width: 85%;
+        font-size: 1em;
+    }
+    
+    /*Bloque Login*/
+    .ico-placeHolder i {
+       left: 60px !important;
+    }
+
+    .ico-placeHolder2 i {
+        left: 60px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /*Bloque Bienvenida*/   
+    .container__bloq-bienvenida{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .img__services-circ img{
+        width: 80%;
+    }
+    
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(1, 415px);
+    }
+
+    /*Bloque Quienes Somos*/
+     
+    .quienes-somos{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .quienes-somos h1{
+        text-align: center;
+    }
+
+    .content__descrip-mision{
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .txt__descrip-mision{
+        width: 100%;
+    }
+    
+    .content__img-frase{
+        width: 346px;
+    }
+    
+    .img__metodologia img{
+        width: 80%;
+        height: 286px;
+    }
+
+    .img__metodologia P{
+        width: 100%;
+    }
+
+    /*Bloque Servicios*/
+    
+    .txt__preg-frec{
+        width: 100%;
+    }
+    
+    .content__servicios h1{
+        text-align: center;
+    }
+    
+    .txt__description-servicios{
+        display: inline-block;
+        font-size: 1em;
+    }
+    
+    .servicios__contenido{
+        width: 100%;
+        padding: 30px 0px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 452px);
+        gap: 20px;
+    }
+    
+    /*Cards*/
+    .content_cards-servicios{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+    .bg__cards{
+        background-color: #fff; 
+        width: 250px; 
+        height: 400px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .content__txt-cards{
+        color: black;
+        font-size: 14px;
+        text-align: left;
+        padding: 13px 13px;
+    }
+    
+    .bg__cards img{
+        overflow: hidden; 
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        height: 120px;
+        padding: 15px;
+    }
+    
+    .grid__servicios-cards p{
+        font-size: 16px;
+        line-height: 23px;
+        padding: 4px;
+        color: black;
+    }
+    
+    .content__serv-inf {
+        width: 92%;
+        height: 277px;
+    }
+
+    .serv__img {
+        width: 420px;
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .content__preg-frec h1{
+        text-align: center;
+    }
+    
+    .txt__desc-preg__fec{
+        font-size: 1em;
+    }
+    
+    .conten__preguntas{
+        width: 78%;
+        margin: 0 auto;
+    }
+    
+    .title__pregunta{
+        justify-content: space-around;
+        margin: 0;
+    }
+    
+    .content__txt-pregunta{
+        width: 70%;
+    }  
+    
+    /*Footer*/
+    footer {
+        flex-direction: column;
+    }
+      
+    .container-logoFooter {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .content__redes-sociales{
+       justify-content: center;
+    }
+
+    /*Bloque Login*/
+
+    .ico-placeHolder i {
+       left: 90px !important;
+    }
+
+    .ico-placeHolder2 i {
+        left: 90px !important;
     }
 }  
 
 
 @media screen and (max-width: 480px) {
-    body{
-        padding-top: 100px;
+
+    /*Bloque de Bienvenida*/
+    .content__bienvenida {
+        padding: 38px 20px 30px;
     }
 
-    .header{
-        height: 100px !important;
-    }
-    
-    .logo img{
-        width: 100px !important;
-        height: 100px !important;
-    }
-
-    .nav__menu{
-        flex-direction: column;
-        align-items: center;
-        margin-right: 40px;
-        background-color: #2c3e50;
-        position: fixed;
-        left: 0;
-        top: 100px;
-        width: 100% !important;
-        padding: 20px 0;
-        height: calc(100% - 100px);
-        overflow-y: auto;
-        left: 100%;
-
-    }
-
-    .nav__menu-item{
-        line-height: 100px;
-    }
-
-    .nav__menu-link {
-        padding: none;
-    }
-    
-    .nav__menu-link:hover,
-    .menu-link__active {
-        background-color: none;
-        color: #83c5f7;
-    }
-
-    .nav__toggle{
-        display: block !important;
-        z-index: 100;
-    }
-    
-    .nav__toggle img{
-        width: 30px !important;
-        height: 30px !important;
-    }
-
-    .nav__menu-visible{
-        left: 0;
-    }
-    
-    .inicio__sesion a{
-        text-decoration: none;
-    }
-    
-    .inicio__sesion:hover{
-       background-color: rgba(16, 8, 122, 0.719);
-       color: #fff;
-       scale: 1;
-    }
-
-
-    /*Bloque Bienvenida*/
-    .container__bloq-princ{
+    .container__bloq-bienvenida{
         grid-template-columns: repeat(1, 1fr);
     }
-    
-    .content__circ-service{
-        width: 65%;
-        display: none;
-        justify-content: space-between;
+
+    .img__services-circ {
+        width: 90%;
+        padding-top: 0;
+        margin: 0 auto;
     }
     
-    .content__txt{
+    .img__services-circ img {
+        width: 87%;
+    }
+       
+    /*Cards*/
+    .content__cards{
+        grid-template-columns: repeat(1, 316px);
+        gap: 40px;
+    }
+
+    .p__description-cards {
+        padding: 6px;
+    }
+    
+    /*Bloque Quienes Somos*/        
+    .content__quienes-somos{
+        width: 100%;
+        padding: 100px 0 131px;
+    }
+     
+    .quienes-somos {
+        width: 85%;
+    }
+     
+     .content__img-frase{
+        width: 85%;
+    }
+        
+     .quienes-somos h2{
+        padding: 20px;
+    }
+     
+     .txt__descrip-empresa{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .content__descrip-mision{
+       flex-direction: column;
+       gap: 30px;
+    }
+    
+    .txt__descrip-mision{
+       width: 100%;
+       padding: 0px;
+    }
+    
+    .img__metodologia{
+      display: none;
+    }
+
+    /*Bloque Servicios*/
+
+    .txt__preg-frec {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .content__preg-frec h1 {
+        text-align: center;
+    }
+    
+    .txt__description-servicios{
+        display: inline-block;
+        font-size: 1em;
+        color: #F1F1E6;
+        line-height: 37px;
+    }
+    
+    .servicios__contenido{
+        width: 100%;
+        padding: 30px 0px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 424px);
+        gap: 20px;
+    }
+    
+    /*Cards*/
+    .content_cards-servicios{
+        grid-template-columns: repeat(1, 1fr);
+    }    
+
+    .content__serv-inf {
+        width: 80%;
+        height: 277px;
+    }
+
+    .serv__img {
+        width: 338px;
+        height: 276px;
+    }
+
+    /*Bloque Preguntas Frecuentes*/
+    .center__servicios{
         width: 90%;
         margin: 0 auto;
     }
     
-    .pregunta{
+    .txt__desc-preg__fec{
+        font-size: 1em;
+    }
+    
+       .title__pregunta{
+        justify-content: space-around;
+    }
+    
+    .content__txt-pregunta{
+        width: 50%;
+    }
+    
+    .txt__pregunta {
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .txt_resp-preg{
+        font-size: 1em;
+    }
+    
+    /*Footer*/
+    footer {
+      flex-direction: column;
+    }
+    
+    .container-logoFooter {
         width: 100%;
         text-align: center;
-        font-size: 2em;
-        padding: 0px;
-        margin: 10px;
+        margin-top: 50px;
     }
     
-    .txt__description{
-        width: 100%;
-        font-size: 1.2em;
+    .content__redes-sociales{
+       justify-content: center;
     }
     
-    /*CARDS*/
-    .content__cards{
-        display: grid;
-        grid-template-columns: repeat(1, 333px);
-    }
-     
-    .p__description-cards{
-        padding: 9px;
+    /*Bloque Inicio de Sesión*/
+    
+    .content-login{
+        width: 100% !important;
+        height: 800px !important;
+        top: 0px !important;
     }
     
+    input[type="text"], input[type="password"] {
+        width: 70%;
+        border: 2px solid #aaa;
+        border-radius: 4px;
+        margin: 30px 0;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: 0.3s;
+      }
+    
+    input[type="text"]:focus, input[type="password"]:focus {
+        border-color: dodgerBlue;
+        box-shadow: 0 0 15px 0 dodgerBlue;
+    }
+    
+    .ico-placeHolder, .ico-placeHolder2 {
+      position: relative;
+    }
+    
+    .ico-placeHolder input[type="text"], .ico-placeHolder2 input[type="password"]  {
+      padding-left: 40px;
+    }
+    
+    .ico-placeHolder i{
+        left: 53px !important;
+    }
+    
+    .ico-placeHolder2 i{
+        left: 53px !important;
+    }
+    
+    .content__password-recordar{
+       flex-direction: column !important;
+       align-items: center;
+    }
+    
+    .recordar__login{
+        display: flex;
+        gap: 5px;
+    }
 }
 
 

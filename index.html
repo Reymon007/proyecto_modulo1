@@ -8,52 +8,44 @@
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
+    <div class="spacer"></div>
 
-    <!--Menu-->
+    <!--Header-->
     <header class="header">
         <nav class="nav">
-
-            <a href="" class="logo nav__link">
-                <img src="assets/img/logo renovado.png" alt="">
-            </a>
-
+            <a href="" class="logo nav__link">Logo</a>
             <button class="nav__toggle">
                 <img src="assets/img/menu/menu-white.png" alt="">
             </button>
-
             <ul class="nav__menu">
                 <li class="nav__menu-item">
-                    <a href="" class="nav__menu-link nav__link">Inicio</a>
+                    <a href="#bienvenida" class="nav__menu-link nav__link">Inicio</a>
                 </li>
                 <li class="nav__menu-item">
-
-                    <a href="" class="nav__menu-link nav__link">¿Quienes Somos?</a>
+                    <a href="#quienesSomos" class="nav__menu-link nav__link">¿Quienes Somos?</a>
                 </li>
                 <li class="nav__menu-item">
-
-                    <a href="" class="nav__menu-link nav__link">Servicios</a>
+                    <a href="#servicios" class="nav__menu-link nav__link">Servicios</a>
                 </li>
                 <li class="nav__menu-item">
-
-                    <a href="" class="nav__menu-link nav__link">Preguntas Frecuentes</a>
+                    <a href="#preg__frec" class="nav__menu-link nav__link">Preguntas Frecuentes</a>
                 </li>
                 <li class="nav__menu-item">
-
-                    <a href="" class="nav__menu-link nav__link">Contacto</a>
+                    <a href="#contacto" class="nav__menu-link nav__link">Contacto</a>
                 </li>
-                <li class="inicio__sesion">    
-                    <a href="" >
-                        Inicio de Sesión
-                    </a>
+                <li class="inicio__sesion-button">
+                    <a href="login.html">Inicio de sesión</a>
                 </li>
             </ul>
         </nav>
     </header>
 
+    <!--Contenedor de contenido general-->
     <div class="content__general">
-        <!--Contenedor de Bienvenida-->
-        <div >
-            <div class="container__bloq-princ">
+
+        <!--Bloque Bienvenida-->
+        <div class="content__bienvenida" id="bienvenida">
+            <div class="container__bloq-bienvenida">
                 <div class="content__txt">
                     <h2 class="pregunta">¿Por que Elegirnos?</h2>
                     <p class="txt__description">
@@ -63,19 +55,11 @@
                         empresa sea más rentable.
                     </p>
                 </div>
-    
-                <div class="content__circ-service">
-                    <div class="margin__img-circ-service">
-                        <img class="promocional1" src="assets/img/images-promo/gallery-img2.png">
-                    </div>
-                    <div class="margin__img-circ-service">
-                        <img class="promocional2" src="assets/img/images-promo/gallery-img1.png">
-                    </div>
-                    <div class="margin__img-circ-service">
-                        <img class="promocional3" src="assets/img/images-promo/gallery-img3.png">
-                    </div>
+                <div class="img__services-circ">
+                   <img src="assets/img/images-promo/gallery-services.png" alt="">  
                 </div>
             </div>
+            <br><br>
             <div class="content__cards">
     
                 <div class="card">
@@ -156,11 +140,325 @@
         </div>
 
         <!--Contenedor de Quienes Somos-->
-        <div class="content__quienes-somos">
-            <div></div>
+        <div class="content__quienes-somos" id="quienesSomos">
+            
+            <div class="quienes-somos">
+                <h1>
+                    EMPRESA
+                </h1>
+                <p class="txt__descrip-empresa">
+                    Surge debido al desarrollo Tecnológico en el país, por lo que usted 
+                    contará con un aliado en su trayectoria para realizar sus proyectos 
+                    con confianza y así obtener un desarrollo Tecnológico significativo. 
+                    Somos un equipo de profesionales especializados en tecnología en 
+                    donde nuestros esfuerzos están orientados a optimizar sus recursos 
+                    para hacer que su empresa sea más rentable.
+                </p>
+
+                <h2>
+                    Misión, Visión y valores
+                </h2>
+
+                <div class="content__descrip-mision">
+                    <p class="txt__descrip-mision">
+                        <b>Si Solutions</b> tiene como visión ser una empresa líder y pionera en el 
+                        desarrollo de aplicaciones con tecnologías de vanguardia para aumentar 
+                        y mejorar la productividad de nuestros clientes. Ésta a su vez está fundamentada 
+                        con nuestra misión, la cual busca desarrollar aplicaciones que automaticen y 
+                        controlen los procesos de negocios de los clientes por medio de investigación y 
+                        desarrollo constante a través del conocimiento latente y el respaldo de la tecnología.
+    
+                        Comprometidos, honrados y leales, así como una filosofía de trabajo ágil basada en el 
+                        desarrollo ágil para la entrega de resultados, son las características que engloban 
+                        nuestros principales valores.
+                    </p>
+                    <div class="content__img-frase">
+                        <img src="assets/img/frase.png" alt="">
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="img__metodologia">
+                    <img src="assets/img/images-promo/metodologia.png" alt="">
+                </div>
+               
+            </div>
+            
         </div>
 
+        <!--Contenedor de Servicios-->
+        <div class="content__servicios" id="servicios">
+            <div class="txt__description-servicios">
+                <h1>
+                    SERVICIOS
+                </h1>
+                <P class="">
+                    En <b>SI SOLUTIONS</b>, nos dimos cuenta de que muchas 
+                    empresas no pueden contar con un departamento especializado 
+                    que se encargue de toda la parte IT, así que decidimos encargarnos 
+                    nosotros y ofrecer servicios informáticos de alta calidad. 
+                    Nos abala nuestra experiencia, clientes y dedicación por conseguir sus objetivos.
+                </P>
+            </div>
+            <div class="servicios__contenido">
+                <div class="content_cards-servicios">
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/ico-soporte.png">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Soporte Remoto</h2>
+                            <br>
+                            <p>
+                                Solucionamos todos los problemas de software, 
+                                instalación de programas, programas que no funcionan, 
+                                virus y posibles incidencias en sistemas operativos Windows, 
+                                MacOS y Linux mediante conexión remota.
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/ico-redes.jpg">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Redes Informáticas</h2>
+                            <br>
+                            <p>
+                                Administramos las redes LAN / WAN de tu empresa, control administrativo 
+                                a nivel de red y rige las políticas de seguridad y control de acceso para que tu 
+                                empresa esté actualizada y segura.
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/ico-diseno-web.jpg">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Diseño Web</h2>
+                            <br>
+                            <p>
+                                Ofrecemos servicios completos, capaces de manejar todos los aspectos de un 
+                                proyecto web.
+                            </p>
+                            <br>
+                            <ul>
+                                <li>Página de Inicio - Quiénes Somos - Catálogo Productos y/o servicios, Blog y Contacto.</li>
+                                <li>Web responsive</li>
+                                <li>Vinculación con redes sociales</li>
+                                <li>Vinculación con redes sociales</li>
+                            </ul>
+                        </div>
+                    </div>
+     
+                    <div class="bg__cards">
+                        <div>
+                            <img src="assets/img/iconos/ico-empresa.png">
+                        </div>
+                        <div class="content__txt-cards">
+                            <h2>Venta de Equipo de Cómputo</h2>
+                            <br>
+                            <p>
+                                En <b>SI SOLUTIONS</b> somos distribuidores de las mejores marcas en 
+                                tecnología algunas de ellas son HP, Lenovo, Dell, Epson, Apple y Samsung, 
+                                Laptops, Computadoras, Impresoras y equipos para Gamers
+                                 todos con garantía de fábrica a precios bajos y competitivos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__serv-inf">
+                    <img src="assets/img/iconos/servicios2.jpg"  class="serv__img">
+                </div>
+            </div>
+        </div>
+
+        <!--CONTENEDOR DE PREGUNTAS FRECUENTES-->
+        <div class="content__preg-frec" id="preg__frec">
+            <div class="center__servicios">
+                <h1>
+                    PREGUNTAS FRECUENTES
+                </h1>
+                <p class="txt__desc-preg__fec">
+                    Este artículo contiene las preguntas más frecuentes realizadas 
+                    por los clientes que requieren soporte técnico para empresas. Si no encuentra una respuesta a 
+                    su pregunta, llamenos y le despejaremos de cualquier duda y podremos orientarlo para 
+                    que tenga toda la seguridad del servicio que va a requerir.
+                </p>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE ES SOPORTE TÉCNICO? 
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/soporte-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        Asistencia a los usuarios que suelen tener algún problema al utilizar un producto o servicio, ya sea este el hardware o software de una computadora de un servidor de Internet, 
+                        periféricos, artículos electrónicos, maquinaria,o cualquier otro equipo o dispositivoincluyendo el correo electrónico, chat, software de aplicación, faxes y técnicos, 
+                        aunque el más común es el telefónico...
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE SON LAS REDES?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/red-informatica.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        Nombra al conjunto de computadoras y otros equipos interconectados, que 
+                        comparten información, recursos y servicios.
+                        Puede a su vez dividirse según su alcance (red de área local o LAN, 
+                        red de área metropolitana o MAN, red de área amplia o WAN, etc.), 
+                        su método de conexión (por cable coaxial, fibra óptica, radio, microondas, infrarrojos) 
+                        o su relación funcional (cliente-servidor, persona a persona), entre otras...
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE ES EL CCTV?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/cctv-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        CCTV consiste en una o más cámaras de vigilancias conectadas a uno o más monitores de video 
+                        o televisores que reproducen las imágenes transmitidas por las cámaras. 
+                        Las imágenes vistas por la cámara se transmiten inalámbricamente o por cables coaxiales o una red inalámbrica 
+                        al monitor que se utiliza para transmitir las imágenes, 
+                        estas imagenes pueden ser grabadas en un disco duro permitiendo ver lo que se graba en todo 
+                        ese día..
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE ES EL DESAROLLO WEB?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/diseno-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        Desarrollo web es un término amplio que define la creación de sitios web para Internet 
+                        o una intranet. 
+                        Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del 
+                        cliente que involucran una combinación de procesos de base de datos 
+                        con el uso de un navegador web a fin de realizar determinadas tareas o mostrar 
+                        información que ayudan a promocionar nuestro negocio...
+                    </p>
+                </div>
+            </div>
+
+            <div class="conten__preguntas">
+                <div class="title__pregunta">
+                    <div class="content__txt-pregunta">
+                        <p class="txt__pregunta">
+                            ¿QUE SON LOS EQUIPOS MAC?
+                        </p>
+                    </div>
+                    <div class="logos-preguntas-frec">
+                        <img src="assets/img/iconos/imac-preg.png">
+                    </div>
+                </div>
+                <div class="txt_resp-preg">
+                    <p>
+                        En los últimos años Apple ha tenido un aumento significativo. Muchos han afirmado que 
+                        esto se debe en parte, al éxito del iPod y el iPhone, 
+                        ya que teóricamente un dueño satisfecho de la experiencia de un iPod o un iPhone 
+                        se declinará a comprar más equipos Apple como los Mac. 
+                        Este movimiento se le ha denominado "efecto halo". los equipos Mac son utilizadas mucho 
+                        para diseño grafico...
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+    <!--Footer-->
+    <footer id="contacto">
+
+        <div class="container-logoFooter">
+            <img src="assets/img/logo renovado.png" alt="">
+        </div>
+
+        <div class="content-contacto-footer">
+            <h2>¿Cómo puedes contactarnos?</h2>
+
+            <div class="content__datos-contacto">
+                <img class="img-mano" src="assets/img/iconos/ico-mano-abajo.png" alt="">
+                <p style="padding: 5px;">Llámanos, aquí estan nuestros datos</p>
+            </div>
+
+            <div class="content__datos-contacto">
+                <img class="img-casa" src="assets/img/iconos/ico-casa.png" alt="">
+                <p style="padding: 5px;">Monterrey 219, Int. 02, Roma Norte, Cuauhtémoc CDMX.</p>
+            </div>
+
+            <div class="content__datos-contacto">
+                <img class="img-maletin" src="assets/img/iconos/ico-maletin.png" alt="">
+                <p style="padding: 5px;">(55) 22466278</p>
+            </div>
+
+            <div class="content__datos-contacto">
+                <img class="img-tel-whatsApp" src="assets/img/iconos/ico-whatsaap.png" alt="">
+                <p style="padding: 5px;">044 (55) 22466278</p>
+            </div>
+
+            <div class="content__datos-contacto">
+                <img class="img-correo" src="assets/img/iconos/ico-email.png" alt="">
+                <p style="padding: 5px;">soporteramon@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="content__redes-sociales">
+            <div class="content__iconos-redesSociales">
+                <a href="https://www.facebook.com/sisolutionsmex" target="_blank">
+                    <img src="assets/img/redes-sociales/facebook.png" style="margin-top: 13px;">
+                </a>
+            </div>
+            
+            <div class="content__iconos-redesSociales">
+                <a href="https://www.instagram.com/reymonbond/" target="_blank">
+                    <img src="assets/img/redes-sociales/instagram.png" style="margin-top: 13px;">
+                </a>
+            </div>
+            
+            <div class="content__iconos-redesSociales">
+                <a href="#">
+                    <img src="assets/img/redes-sociales/html-5.png" style="margin-top: 13px;">
+                </a>
+            </div>
+        </div>
+
+    </footer>
 </body>
 </html>
 

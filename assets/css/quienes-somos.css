@@ -1,35 +1,67 @@
 .content__quienes-somos{
    width: 100%;
-   padding: 149px 0 131px;
-   display: flex;
-   justify-content: space-around;
+   padding: 100px 0 131px;
 }
 
-
-.content__img-lap img{
-    width: 90%;
-    height: 288px;
+.quienes-somos{
+    width: 80%;
+    margin: 0 auto;
 }
-.content__quienes-somos h2{
-    text-align: center;
+
+.quienes-somos h1{
+    padding: 27px 15px;
     font-size: 3em;
+    color: #D0E7E5;
 }
 
-.content__quienes-somos h3{
-    text-align: center;
+.txt__descrip-empresa{
+    display: inline-block;
+    width: 89%;
+    font-size: 1em;
+    padding: 20px;
+    border-radius: 15px;
+    color: #F1F1E6;
+    line-height: 25px;
+}
+
+.quienes-somos h2{
     padding: 20px;
     font-size: 1.5em;
     line-height: 15px;
-    color: gold;
+    color: #D0F5FF;
 }
 
-.content__quienes-somos p{
+.content__descrip-mision{
+    display: flex;
+    align-items: center;
+    gap: 117px;
+}
+
+.txt__descrip-mision{
     display: inline-block;
-    width: 100%;
-    font-size: 1.5em; 
+    width: 50%;
+    font-size: 1em;
+    padding: 20px;
+    border-radius: 15px;
+    color: #F1F1E6;
+    line-height: 25px;
 }
 
-.txt__description{
-    width: 50%;
-    padding: 20px;
+.content__img-frase{
+    width: 22%;
+    height: 288px;
+    border: 1px solid #242424;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.img__metodologia{
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(58, 50, 50);
+    width: 65%;
+    height: 286px;
+    overflow: hidden;
+    margin: 0 auto;
 }

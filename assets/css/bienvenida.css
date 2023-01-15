@@ -1,23 +1,32 @@
-.container__bloq-princ{
+/*Bloque Bienvenida*/
+.content__bienvenida{
+    width: 100%;
+    padding: 117px 20px 30px;
+}
+
+.container__bloq-bienvenida{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10PX;
+    margin: 16px;
+    background-image: url(../img/fondos/fondo_trans2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 4px 10px red;
 }
 
-.content__circ-service{
-    width: 65%;
-    display: flex;
-    justify-content: space-between;
+.img__services-circ{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.margin__img-circ-service{
-    margin: 33px 0px;
-}
-
-.promocional1, .promocional2,
-.promocional3{
-    width: 300px;
-    height: 300px;
+.img__services-circ img{
+    width: 50%;
 }
 
 .content__txt{
@@ -27,32 +36,32 @@
 
 .pregunta{
     font-size: 3em;
-    color: #fff;
+    color: #D0E7E5;
     padding: 14px;
 }
 
 .txt__description{
     padding: 23px;
     width: 90%;
-    font-size: 1.5em;
-    background-color: black;
+    font-size: 1.2em;
     border-radius: 20px;
-    opacity: .7;
+    color: #F1F1E6;
 }
 
-/*CARDS*/
+/*Cards*/
 .content__cards{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 450px);
+    grid-template-columns: repeat(2, 580px);
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    margin: 50px;
+    gap: 79px;
+    margin: 62px 0px;
 }
 
 .card{
     position: relative;
-}
+} 
 
 .card__content {
     border-radius:25px;
@@ -99,12 +108,11 @@
     padding: 2px;
     width: 200px;
     height: 60px;
-    color:#fff;
+    color:#D0E7E5;
     font-size: 1em;
     font-weight: bold;
     background-color: black;
     border-radius: 10px;
-    opacity: .7;
     text-align: center;
 }
 
@@ -156,11 +164,12 @@
 
 .p__description-cards{
     padding: 0px 20px;
+    color: #F1F1E6;
     background-color: rgb(3, 3, 3);
     border-radius: 20px;
     width: 80%;
     padding: 20px;
     font-size: .9em;
-    opacity: .8;
+    opacity: .9;
     font-weight: bold;
 }

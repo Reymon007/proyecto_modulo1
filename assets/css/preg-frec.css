@@ -1,56 +1,58 @@
 .content__preg-frec{
     width: 100%;
-    padding: 150px 0px 30px;
-    display: flex;
-    justify-content: space-around;
+    padding: 110px 0px 44px;
 }
 
-.content__img-lap3 img{
-    width: 90%;
-    height: 288px;
-    padding: 20px;
+.center__servicios{
+    width: 80%;
+    margin: 0 auto;
 }
-.content__preg-frec h2{
-    text-align: center;
+
+.content__preg-frec h1{
+    padding: 27px 15px;
     font-size: 3em;
-    padding: 10px 0px 10px;
+    color: #D0E7E5;
 }
 
-.content__preg-frec p{
+.txt__desc-preg__fec{
     display: inline-block;
-    width: 100%;
-    font-size: 1.5em; 
-}
-
-.content__description-servicios{
-    width: 100%;
-}
-
-/*Cards*/
-.contentGrid__Service__cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
-
-.bg__cards-pregFrec{
-    background-color: #fff;
-    border-radius: 10px;
-    width: 70%;
-    height: 340px;
+    font-size: 1.5em;
     padding: 20px;
+    border-radius: 15px;
+    color: #F1F1E6;
+    line-height: 37px;
 }
 
-.bg__cards-pregFrec h3{
-    color:#337DDC;
-    font-size: 15px;
-    padding-top: 19px;
-    text-align: center;
+.conten__preguntas{
+    width: 78%;
+    margin: 0 auto;
 }
 
-.bg__cards-pregFrec p{
-    font-size: 16px;
-    line-height: 23px;
-    padding: 4px;
-    color: black;
+.title__pregunta{
+    display: flex;
+    margin: 15px 0;
+}
+
+.content__txt-pregunta{
+    width: 26%;
+}
+
+.txt__pregunta {
+    padding: 20px 0px;
+    color:#F1F1E6;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.txt_resp-preg{
+    width: 85%;
+    font-size: 1em;
+    color:#F1F1E6;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.logos-preguntas-frec img{
+    width: 100px;
+    height: 80px;
 }
